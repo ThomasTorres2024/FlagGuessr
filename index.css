@@ -1,0 +1,118 @@
+body {
+  background: linear-gradient(100deg, rgb(5, 185, 230), rgb(110, 110, 223));
+  background-repeat: no-repeat;
+  min-height:100vh; /* has graident extend to end of the page */
+
+  display: flex;
+  justify-content: center;  /* horizontal */
+  align-items: center;      /* vertical */
+}
+
+h5{
+  font-size: 25;
+  color: white;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+h1{
+  font-size: 25;
+  color: white;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+#flagDiv{
+  height:200px;
+  width: 200px;
+  display: flex;
+  justify-content: center;  /* horizontal */
+  align-items: center;      /* vertical */
+}
+
+#flag_img{
+  max-width: 100%;
+  max-height: 100%;
+  margin-bottom: 5px;
+  opacity: 1;
+
+  object-fit: fill;
+}
+
+#nextRound{
+  margin-top: 5px;
+}
+
+.invis_button{
+  width: 250px;
+  height: 30px;
+  background-color: transparent;
+  border-color: transparent;
+  margin-bottom: 20px;
+}
+
+.correct_button{
+  width: 250px;
+  height: 30px;
+  font-family: 'Courier New', Courier, monospace;
+  background: green;
+  border: 10px;
+  color: white;
+  font-weight: bold;
+  border-radius: 25px;
+  margin-bottom: 20px;
+  opacity: .75;
+}
+
+.wrong_button{
+  width: 250px;
+  height: 30px;
+  font-family: 'Courier New', Courier, monospace;
+  background: red;
+  border: 10px;
+  color: white;
+  font-weight: bold;
+  border-radius: 25px;
+  margin-bottom: 20px;
+  opacity: .75;
+}
+
+
+.game_button{
+  width: 250px;
+  height: 30px;
+  font-family: 'Courier New', Courier, monospace;
+  background: linear-gradient(100deg, rgb(5, 185, 230), rgb(110, 110, 223));
+  border: 10px;
+  color: white;
+  font-weight: bold;
+  border-radius: 25px;
+  margin-bottom: 20px;
+  opacity: .75;
+}
+
+
+#main_panel{
+  display: flex;
+  justify-content: center;  /* horizontal */
+  align-items: center;      /* vertical */
+
+  width: 500px;
+  height: 500px;
+  opacity: 1;
+  
+  border-radius: 30px;
+  background: linear-gradient(-100deg, rgb(40, 4, 245), rgb(10, 151, 233));
+  flex-direction: column;
+  justify-content: flex-start;  /* Pushes everything to the top */
+}
+
+#end_screen{
+  display: flex;
+  justify-content: center;  /* horizontal */
+  align-items: center;      /* vertical */
+
+  background-color: white;
+  width: 350px;
+  height: 350px;
+  opacity: 1;
+  border-radius: 500px;
+}
